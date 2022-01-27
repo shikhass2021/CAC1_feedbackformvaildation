@@ -187,7 +187,7 @@ $(function() {
             return false;
         } else {
             $('.all').remove();
-            $(".thankyou").append("THANKS FOR YOUR PATIENCE");
+            $(".thankyou").append("THANK YOU, HAVE A NICE DAY!! ");
             $(submit).hide();
         }
     });
@@ -196,11 +196,7 @@ $(function() {
 $(document).ready(function() {
     $("#user").keypress(function(e) {
         var keyCode = e.which;
-        /*
-
-          48-57 - (0-9)Numbers
-        */
-
+        
         if (!(keyCode <= 48 || keyCode >= 57)) {
             return false;
         }
